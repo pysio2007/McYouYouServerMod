@@ -1,1 +1,0 @@
-#this function is used by external code to detect whether this datapack is installed
