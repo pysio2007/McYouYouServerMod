@@ -1,0 +1,11 @@
+{
+  "name": "0.关于本书",
+  "icon": "minecraft:writable_book",
+  "category": "mcyouyouservermod:wood_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "本书由McYouYouServerMod提供，本书章节无特殊声明采用CC 3.0协议。 MOD开源地址 ： $(l:https://git.pysio.online/Pysio/McYouYouServerMod) 点我打开 $(/l)"
+    }
+  ]
+}
