@@ -1,0 +1,11 @@
+{
+  "name": "0.先来认识一下你身上的状态吧",
+  "icon": "minecraft:writable_book",
+  "category": "mcyouyouservermod:wood_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在本服务器中 拥有各式各样的正面增益和负面效果。查看接下来的章节，我们会逐个介绍这些状态和增益。部分状态会在女遇见之后显示详细描述，会对你的游戏有很大的帮助。$(playername) 祝你好运。"
+    }
+  ]
+}
