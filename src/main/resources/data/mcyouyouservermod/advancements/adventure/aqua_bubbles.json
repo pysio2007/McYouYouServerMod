@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "Aqua Bubbles"
+    },
+    "description": [
+      {
+      "translate": "Swim over a "
+    },
+    {
+      "translate": "block.minecraft.magma_block"
+    },
+    {
+      "translate": " to breathe underwater"
+    }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "refined_advancements:adventure/ocean",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": [
+                "bubble_column"
+              ],
+              "state": {
+                "drag": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": []
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "title": {
+        "translate": "Shimmering Crystals"
+      },
+      "description": [
+      {
+        "translate": "Obtain Amethyst Shards from an amethyst geode"
+      }],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "elytra": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:amethyst_shard"
+                ]
+              }
+            ]
+            
+          }
+        }
+    }
+  }
+  

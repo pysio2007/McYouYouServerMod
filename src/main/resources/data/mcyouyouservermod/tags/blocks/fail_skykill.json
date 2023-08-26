@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+   
+    {"id": "minecraft:water","required": false},
+    {"id": "minecraft:lava","required": false},
+    {"id": "minecraft:bubble_column","required": false},
+    {"id": "minecraft:kelp","required": false},
+    {"id": "minecraft:kelp_plant","required": false},
+    {"id": "minecraft:seagrass","required": false},
+    {"id": "minecraft:tall_seagrass","required": false},
+    
+    {"id": "#minecraft:climbable","required": false},
+    {"id": "minecraft:vine","required": false},
+    {"id": "minecraft:cave_vines","required": false},
+    
+    {"id": "#minecraftcarpets","required": false},
+    {"id": "minecraft:moss_carpet","required": false},
+    {"id": "minecraft:snow","required": false},
+    {"id": "minecraft:powder_snow","required": false}
+    
+   
+
+
+    
+
+
+
+  
+
+
+    
+  ]
+}

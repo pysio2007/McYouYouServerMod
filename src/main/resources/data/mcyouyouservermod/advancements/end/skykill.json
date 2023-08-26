@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:elytra",
+        "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+      },
+      "title": {
+        "translate": "Mid-Air Battle"
+      },
+      "description": [
+      {
+        "translate": "Whilst flying with your Elytra, kill 10 hostile mobs without touching the ground"
+      }],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:end/elytra",
+    "criteria": {
+      "elytra": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "elytra"
+      ]
+    ],
+    "rewards": {
+      "experience": 50
+    }
+  }
+  

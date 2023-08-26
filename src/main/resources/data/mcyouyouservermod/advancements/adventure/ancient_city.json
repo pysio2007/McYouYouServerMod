@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:reinforced_deepslate"
+      },
+      "title": {
+        "translate": "Silence of the City"
+      },
+      "description": [
+      {
+        "translate": "Discover the Ancient City, inhabitated by Sculk and the Warden"
+      }],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "refined_advancements:adventure/bdeepslate",
+    "criteria": {
+        "elytra": {
+          "trigger": "minecraft:tick",
+          "conditions": {
+            "player": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "structure": "minecraft:ancient_city"
+                  }
+                }
+              }
+            ]
+          }
+        }
+    }
+  }
+  

@@ -1,0 +1,52 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bedrock"
+      },
+      "title": {
+        "translate": "Above the Nether"
+      },
+      "description": [
+      {
+        "translate": "Break the limits of the Nether and go above its Bedrock roof"
+      }],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:nether/root",
+    "criteria": {
+      "elytra": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "dimension": "minecraft:the_nether",
+                    "position": {
+                      "y": {
+                        "min": 128
+                      }
+                    }
+                  }
+                  
+                }
+              }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "elytra"
+      ]
+    ],
+    "rewards": {
+      "experience": 50
+    }
+  }
+  

@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:experience_bottle",
+        "nbt": "{}"
+      },
+      "title": {
+        "translate": "Filled With Experience"
+      },
+      "description": [
+      {
+        "translate": "Reach experience level 30"
+      }],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:story/enchant_item",
+    "criteria": {
+      "get_stone": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "level": {
+                "min": 30
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

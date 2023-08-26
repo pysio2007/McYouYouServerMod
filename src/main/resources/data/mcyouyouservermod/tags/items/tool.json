@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+
+        {"id":"#refined_advancements:pickaxe","required": false},
+        {"id":"#refined_advancements:axe","required": false},
+        {"id":"#refined_advancements:shovel","required": false},
+        {"id":"#refined_advancements:sword","required": false},
+        {"id":"#refined_advancements:hoe","required": false}
+
+        ,
+        {"id":"minecraft:trident","required": false}
+
+
+    ]
+}

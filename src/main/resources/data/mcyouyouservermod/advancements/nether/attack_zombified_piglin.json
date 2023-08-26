@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_sword"
+    },
+    "title": {
+      "translate": "Not So Friendly"
+    },
+    "description": [
+      
+      {
+        "translate": "Attack a "
+      },
+      {
+        "translate": "entity.minecraft.zombified_piglin"
+      },
+      {
+        "translate": "... and run away as fast as you can"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "silk_touch_nest": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombified_piglin"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "silk_touch_nest"
+    ]
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:soul_sand"
+    },
+    "title": {
+      "translate": "Bubblevator"
+    },
+    "description": [
+      {
+      "translate": "Place "
+    },
+    {
+      "translate": "block.minecraft.soul_sand"
+    },
+    {
+      "translate": " below water to create an upward current"
+    }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": [
+                "bubble_column"
+              ],
+              "state": {
+                "drag": false
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": []
+}

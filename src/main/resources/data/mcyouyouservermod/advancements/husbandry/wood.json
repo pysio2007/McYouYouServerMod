@@ -1,0 +1,160 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:oak_log"
+      },
+      "title": {
+        "translate": "Avid Lumberjack"
+      },
+      "description": [
+      {
+        "translate": "Obtain one every wood log"
+      }],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+      "oak": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:oak_log"
+              ]
+            }
+          ]
+          
+        }
+      },
+      "spruce": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:spruce_log"
+              ]
+            }
+          ]
+          
+        }
+      },
+      "birch": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:birch_log"
+              ]
+            }
+          ]
+          
+        }
+      },
+      "acacia": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:acacia_log"
+              ]
+            }
+          ]
+          
+        }
+      },
+      "dark oak": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:dark_oak_log"
+              ]
+            }
+          ]
+          
+        }
+      },
+      "jungle": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:jungle_log"
+              ]
+            }
+          ]
+          
+        }
+      },
+      "mangrove": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:mangrove_log"
+              ]
+            }
+          ]
+          
+        }
+      },
+      "cherry": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cherry_log"
+              ]
+            }
+          ]
+          
+        }
+      },
+      "warped": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:warped_stem"
+              ]
+            }
+          ]
+          
+        }
+      },
+      "crimson": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:crimson_stem"
+              ]
+            }
+          ]
+          
+        }
+   
+   
+      }
+  
+
+  
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }
+  

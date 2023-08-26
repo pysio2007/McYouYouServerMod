@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "Void's Calling"
+    },
+    "description": [
+      {
+      "translate": "Obtain an "
+    },
+    {
+      "translate": "item.minecraft.ender_pearl"
+    },
+    {
+      "translate": " from an "
+    },
+    {
+      "translate": "entity.minecraft.enderman"
+    }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "refined_advancements:story/bdeepslate",
+  "criteria": {
+    "blaze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_pearl"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blaze_rod"
+    ]
+  ]
+}
